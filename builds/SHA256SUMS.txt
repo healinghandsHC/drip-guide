@@ -1,0 +1,2 @@
+88d9182ff82369a4fc1d3cff4812b662a6530ca6aa8c1835484379fe34f61bce  ICU-Drip-Trainer-1.0.0-release-arm64.apk
+4fe31586d0d810c71ef5224779d78d6f214eaf37c0e42e7e9b8848fec66524b8  ICU-Drip-Trainer-1.0.0-play-arm64.aab

@@ -1,0 +1,56 @@
+Prepare this completed web app for Android and Google Play without changing its existing design, content, features, navigation, or functionality.
+
+ 
+
+Review the existing project first and preserve all current functionality. Create or configure the Android version using Capacitor and sync the current production web application into the Android project. Do not redesign, rewrite, remove, or replace any existing application features.
+
+ 
+
+Create a unique, valid Android package identity appropriate for this app. Before building, tell me the exact package identity you intend to use and make sure that same package identity is used consistently throughout the Android project. Once established, do not change it.
+
+ 
+
+Configure the Android project for a current Google Play-compatible release build. Use the appropriate supported Java/JDK and Android build configuration required by the current project and Google Play.
+
+ 
+
+This will be the first Google Play release of this application. Create a new upload keystore (.jks) specifically for this app. Generate/configure the required signing credentials securely. Do not display passwords, keystore passwords, key passwords, or other secrets in chat or source code. Use Replit Secrets/environment variables for signing credentials whenever possible. If Replit requires me to manually enter secret values, give me the secure secret-entry form and instructions instead of exposing those values.
+
+ 
+
+Configure Gradle release signing so that signing credentials are read securely from the appropriate environment variables or Replit Secrets. Make sure the upload keystore and sensitive signing information are excluded from version control.
+
+ 
+
+Sync the finished web application into the Android project and build:
+
+ 
+
+1. A signed Android App Bundle (.aab) for Google Play.
+
+2. An Android APK that I can install directly on an Android device for testing, if one is not already available.
+
+ 
+
+Validate the final AAB using the appropriate Android/Google bundle validation tools. Verify the package identity, release signing configuration, version information, and signature before declaring the build complete.
+
+ 
+
+Test or verify that the packaged application contains the application’s required local assets so that features intended to work offline do not unnecessarily depend on the Replit development environment. Clearly identify anything that still requires an internet connection, external API, database, Replit deployment, or other hosted service. My goal is eventually to be able to stop using Replit without breaking the published application, so specifically identify every remaining Replit dependency, if any.
+
+ 
+
+Perform a read-only privacy audit of the finished application. Tell me exactly what personal information, user data, device information, login/account information, analytics, crash information, advertising identifiers, health information, location information, or other data the app collects, stores, transmits, or shares. Also identify any third-party SDKs or services that may collect data. Do not change the application during this audit.
+
+ 
+
+When everything is complete, provide separate downloadable files for the signed Google Play .aab, upload keystore .jks, and test APK. Do not expose the signing passwords. Remind me that the keystore and its credentials must be securely backed up because they may be needed for future Google Play updates.
+
+ 
+
+Finally, give me a concise build report containing the app name, Android package identity, version name, version code, AAB filename, APK filename, keystore filename, signing/validation status, privacy-audit summary, offline-capability status, and any remaining external or Replit dependencies.
+
+ 
+
+Do not publish, deploy, modify the application’s design, or make unrelated changes without asking me first
+We "skate so close" because deep inside us we all want to be known and accepted as we really are, but fear keeps us from revealing ourselves.  We even hope to be discovered, but fear it at the same time.
