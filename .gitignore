@@ -17,3 +17,8 @@ build/
 __pycache__/
 *.pyc
 .DS_Store
+Pods/
+*.xcarchive
+*.xcworkspace/xcuserdata/
+DerivedData/
+ios/App/Pods/
